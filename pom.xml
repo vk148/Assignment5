@@ -54,7 +54,7 @@
 							</descriptorRefs>
 							<archive>
 								<manifest>
-									<mainClass>com.victor.DevOps.Assignment5</mainClass>
+									<mainClass>com.victor.DevOps.Assignment5.App</mainClass>
 								</manifest>
 							</archive>
 						</configuration>
