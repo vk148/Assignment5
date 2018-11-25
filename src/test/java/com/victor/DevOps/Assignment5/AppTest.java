@@ -41,7 +41,9 @@ public class AppTest
      */
     public void testAppSuccess()
     {
-    	System.setProperty("webdriver.chrome.driver", "C:\\vijay\\Training\\edureka\\Assignments\\Assignment.5\\chromedriver.exe");
+    	//System.setProperty("webdriver.chrome.driver", "C:\\vijay\\Training\\edureka\\Assignments\\Assignment.5\\chromedriver.exe");
+    	System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+    		
 		ChromeOptions chromeOptions = new ChromeOptions();
 		chromeOptions.setHeadless(true);
 		WebDriver driver = new ChromeDriver(chromeOptions);
@@ -60,7 +62,8 @@ public class AppTest
     
     public void testAppFail()
     {
-    	System.setProperty("webdriver.chrome.driver", "C:\\vijay\\Training\\edureka\\Assignments\\Assignment.5\\chromedriver.exe");
+    	//System.setProperty("webdriver.chrome.driver", "C:\\vijay\\Training\\edureka\\Assignments\\Assignment.5\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 		ChromeOptions chromeOptions = new ChromeOptions();
 		chromeOptions.setHeadless(true);
 		WebDriver driver = new ChromeDriver(chromeOptions);
