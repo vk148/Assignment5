@@ -10,6 +10,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 public class App {
+	public void test() {
+		System.out.println("This is test");
+	}
 	public static void main(String[] args) {
 		//System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 		
