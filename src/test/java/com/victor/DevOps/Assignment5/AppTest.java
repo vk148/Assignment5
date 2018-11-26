@@ -29,7 +29,7 @@ public class AppTest
 		chromeOptions.setHeadless(true);
 		WebDriver driver = new ChromeDriver(chromeOptions);
 		System.out.println("Completing Assignment 5");
-		driver.get("http://13.233.75.90:3001/");
+		driver.get("http://52.66.208.9:3001/");
 		String x = driver.getTitle();
 	    System.out.println(x);
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
@@ -50,7 +50,7 @@ public class AppTest
 		chromeOptions.setHeadless(true);
 		WebDriver driver = new ChromeDriver(chromeOptions);
 		System.out.println("Completing Assignment 5");
-		driver.get("http://13.233.75.90:3001/");
+		driver.get("http://52.66.208.9:3001/");
 		String x = driver.getTitle();
 	    System.out.println(x);
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
