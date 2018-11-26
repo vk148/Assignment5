@@ -2,13 +2,14 @@ package com.victor.DevOps.Assignment5;
 
 import java.util.concurrent.TimeUnit;
 
-import org.junit.jupiter.api.Test;
+import org.testng.annotations.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 import junit.framework.Assert;
+
 
 /**
  * Unit test for simple App.
@@ -21,8 +22,8 @@ public class AppTest
     @Test
     public void testAppSuccess()
     {
-    	//System.setProperty("webdriver.chrome.driver", "C:\\vijay\\Training\\edureka\\Assignments\\Assignment.5\\chromedriver.exe");
-    	System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+    	System.setProperty("webdriver.chrome.driver", "C:\\vijay\\Training\\edureka\\Assignments\\Assignment.5\\chromedriver.exe");
+    	//System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
     		
 		ChromeOptions chromeOptions = new ChromeOptions();
 		chromeOptions.setHeadless(true);
@@ -43,8 +44,8 @@ public class AppTest
     @Test
     public void testAppFail()
     {
-    	//System.setProperty("webdriver.chrome.driver", "C:\\vijay\\Training\\edureka\\Assignments\\Assignment.5\\chromedriver.exe");
-		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+    	System.setProperty("webdriver.chrome.driver", "C:\\vijay\\Training\\edureka\\Assignments\\Assignment.5\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 		ChromeOptions chromeOptions = new ChromeOptions();
 		chromeOptions.setHeadless(true);
 		WebDriver driver = new ChromeDriver(chromeOptions);

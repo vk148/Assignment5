@@ -1,6 +1,8 @@
 package com.victor.DevOps.Assignment5;
 
 import java.util.concurrent.TimeUnit;
+
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -8,6 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 //import junit.framework.Assert;
 
 import org.openqa.selenium.chrome.ChromeOptions;
+
 
 public class App {
 	public void test() {
@@ -35,7 +38,8 @@ public class App {
 		System.out.println(driver.findElement(By.name("hello")).getText());
 		//Assert.assertTrue(driver.findElement(By.name("hello")).getText().contains("Login Succeeded"));
 		// Thread.sleep(5000); 
-		
 		//driver.quit(); 
 	}
+	
+	
 }
